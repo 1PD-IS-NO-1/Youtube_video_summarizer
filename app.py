@@ -9,9 +9,9 @@ import requests
 load_dotenv()
 
 # Google Gemini API Key
-GOOGLE_API_KEY = os.getenv("AIzaSyD0GxR2J1JxGic807Cc89Jq6MB4aDJYgDc")
+GOOGLE_API_KEY = os.getenv("PASTE API kEY ON HERE")
 # Configure Google Gemini with your API key
-genai.configure(api_key="AIzaSyD0GxR2J1JxGic807Cc89Jq6MB4aDJYgDc")
+genai.configure(api_key="PASTE API KEY ON HERE")
 
 # Create a GenerativeModel instance
 model = genai.GenerativeModel("gemini-1.5-flash")
